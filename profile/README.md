@@ -21,8 +21,6 @@ Here's a glimpse of what you might find:
 * **SmartStockWebApp:** [https://github.com/InfiniteMonkeyCollective/SmartStockWebApp](https://github.com/InfiniteMonkeyCollective/SmartStockWebApp) - Web application for the SmartStock platform.
 * ...and more to come!
 
-**Note:** Please replace the example project names and descriptions with your actual repositories and information.
-
 ## Contact
 
 For any questions or inquiries, please contact us at:
