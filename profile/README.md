@@ -11,16 +11,6 @@ Our mission is to empower individuals and institutions with the tools they need 
 
 **Visit our website:** [https://infinite-monkey.com/](https://infinite-monkey.com/)
 
-## Our Projects
-
-This organization hosts the repositories for our various AI-powered trading software and related projects. Stay tuned for updates and releases!
-
-Here's a glimpse of what you might find:
-
-* **SmartStockAgents:** [https://github.com/InfiniteMonkeyCollective/SmartStockAgents](https://github.com/InfiniteMonkeyCollective/SmartStockAgents) - A collection of trading agents for the SmartStock platform.
-* **SmartStockWebApp:** [https://github.com/InfiniteMonkeyCollective/SmartStockWebApp](https://github.com/InfiniteMonkeyCollective/SmartStockWebApp) - Web application for the SmartStock platform.
-* ...and more to come!
-
 ## Contact
 
 For any questions or inquiries, please contact us at:
