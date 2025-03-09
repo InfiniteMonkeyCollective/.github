@@ -1,4 +1,4 @@
-![](https://github.com/InfiniteMonkeyCollective/.github/blob/main/SmartStock.png)
+![](https://github.com/InfiniteMonkeyCollective/.github/blob/main/profile/SmartStock.png)
 # SmartStock
 
 Welcome to the SmartStock GitHub organization!
