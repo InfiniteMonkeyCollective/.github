@@ -17,8 +17,8 @@ This organization hosts the repositories for our various AI-powered trading soft
 
 Here's a glimpse of what you might find:
 
-* **[Project Name 1 (Example):]** ([SmartStockAgents](https://github.com/InfiniteMonkeyCollective/SmartStockAgents) - A collection of trading agents for the SmartStock platform.
-* **[Project Name 2 (Example):]** ([SmartStockWebApp](https://github.com/InfiniteMonkeyCollective/SmartStockWebApp) - Web application for the SmartStock platform.
+* **[Agents:]** ([SmartStockAgents](https://github.com/InfiniteMonkeyCollective/SmartStockAgents) - A collection of trading agents for the SmartStock platform.
+* **[WebApp:]** ([SmartStockWebApp](https://github.com/InfiniteMonkeyCollective/SmartStockWebApp) - Web application for the SmartStock platform.
 * ...and more to come!
 
 **Note:** Please replace the example project names and descriptions with your actual repositories and information.
