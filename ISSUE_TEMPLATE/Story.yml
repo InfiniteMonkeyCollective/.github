@@ -1,0 +1,63 @@
+name: 📖 User Story
+description: A user-facing piece of value, sized to fit in one sprint.
+title: "[Story] "
+labels: ["type:story", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## User Story
+        Should fit in a single sprint. After creating, link as a sub-issue under the parent epic and break it into tasks.
+
+  - type: textarea
+    id: story
+    attributes:
+      label: Story
+      description: Standard user-story format.
+      value: |
+        **As a** 
+        **I want** 
+        **So that** 
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: Specific, testable conditions that must be true for this story to be "done." Use Given/When/Then if it helps.
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+
+  - type: input
+    id: parent-epic
+    attributes:
+      label: Parent Epic
+      description: Issue number of the parent epic, e.g. `#42`. Also link as a sub-issue after creation.
+      placeholder: "#"
+
+  - type: dropdown
+    id: estimate
+    attributes:
+      label: Estimate (story points)
+      description: Modified Fibonacci. If you're unsure, choose "needs refinement."
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "5"
+        - "8"
+        - "13"
+        - "needs refinement"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Open Questions / Notes
+      description: Anything the team should resolve before starting?
