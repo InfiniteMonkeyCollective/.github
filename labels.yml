@@ -1,0 +1,84 @@
+# Scrum workflow labels.
+# Sync with: ./scripts/sync-labels.sh OWNER/REPO
+# Or: npx github-label-sync --labels .github/labels.yml OWNER/REPO
+
+# === Type ===
+- name: "type:epic"
+  color: "8B5CF6"
+  description: "Large body of work spanning multiple sprints"
+
+- name: "type:story"
+  color: "3B82F6"
+  description: "User-facing value, sized for one sprint"
+
+- name: "type:task"
+  color: "06B6D4"
+  description: "Implementation task, usually a child of a story"
+
+- name: "type:bug"
+  color: "EF4444"
+  description: "Something is broken"
+
+- name: "type:spike"
+  color: "F59E0B"
+  description: "Time-boxed investigation"
+
+# === Priority ===
+- name: "P0"
+  color: "991B1B"
+  description: "Critical — drop everything"
+
+- name: "P1"
+  color: "DC2626"
+  description: "High priority"
+
+- name: "P2"
+  color: "F97316"
+  description: "Medium priority"
+
+- name: "P3"
+  color: "9CA3AF"
+  description: "Low priority"
+
+# === Workflow state ===
+- name: "needs-triage"
+  color: "FBBF24"
+  description: "Awaiting review and prioritization"
+
+- name: "ready"
+  color: "10B981"
+  description: "Refined and ready to be picked up"
+
+- name: "blocked"
+  color: "7C2D12"
+  description: "Cannot proceed — waiting on a dependency"
+
+# === Areas (customize for your codebase) ===
+- name: "area:backend"
+  color: "1E40AF"
+  description: ""
+
+- name: "area:frontend"
+  color: "1D4ED8"
+  description: ""
+
+- name: "area:infra"
+  color: "1E3A8A"
+  description: ""
+
+- name: "area:ml"
+  color: "5B21B6"
+  description: ""
+
+# === Misc ===
+- name: "good-first-issue"
+  color: "10B981"
+  description: "Good entry point for new contributors"
+
+- name: "tech-debt"
+  color: "6B7280"
+  description: "Refactor / cleanup work"
+
+- name: "documentation"
+  color: "0891B2"
+  description: "Docs-only changes"
