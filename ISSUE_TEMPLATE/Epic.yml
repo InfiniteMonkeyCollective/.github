@@ -1,0 +1,66 @@
+name: 🎯 Epic
+description: A large body of work spanning multiple sprints. Break it down into stories using sub-issues.
+title: "[Epic] "
+labels: ["type:epic"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Epic
+        Use this for work that's too big for a single sprint. After creating, add user stories as **sub-issues** so progress rolls up automatically.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Goal
+      description: What are we solving and why does it matter now?
+      placeholder: Describe the user problem, business need, or strategic goal driving this work.
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired Outcome
+      description: What does the world look like when this epic is done?
+    validations:
+      required: true
+
+  - type: textarea
+    id: success-criteria
+    attributes:
+      label: Success Criteria
+      description: How will we measure that this epic is actually complete? Be specific and testable.
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of Scope
+      description: What are we explicitly NOT doing? This prevents scope creep.
+      placeholder: |
+        - 
+        - 
+
+  - type: input
+    id: target
+    attributes:
+      label: Target Quarter / Release
+      placeholder: "Q3 2026"
+
+  - type: textarea
+    id: stakeholders
+    attributes:
+      label: Stakeholders
+      description: Who needs to be in the loop? (engineering lead, PM, design, etc.)
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Design Docs & Links
+      description: PRDs, design files, related discussions, RFCs.
