@@ -1,0 +1,36 @@
+name: 🔧 Task
+description: An implementation task, typically a sub-issue of a user story.
+title: "[Task] "
+labels: ["type:task"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What needs to be done? Include enough context that someone else on the team could pick this up.
+    validations:
+      required: true
+
+  - type: textarea
+    id: dod
+    attributes:
+      label: Definition of Done
+      value: |
+        - [ ] Code merged to main
+        - [ ] Tests passing
+        - [ ] Docs updated (if user-facing or API change)
+    validations:
+      required: true
+
+  - type: input
+    id: parent-story
+    attributes:
+      label: Parent Story
+      description: Issue number of the parent story, e.g. `#123`. Also link as a sub-issue after creation.
+      placeholder: "#"
+
+  - type: textarea
+    id: technical-notes
+    attributes:
+      label: Technical Notes
+      description: Implementation hints, files to touch, libraries involved, gotchas.
