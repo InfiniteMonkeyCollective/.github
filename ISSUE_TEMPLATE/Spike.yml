@@ -1,0 +1,48 @@
+name: 🔬 Spike
+description: A time-boxed investigation to reduce uncertainty before committing to a solution.
+title: "[Spike] "
+labels: ["type:spike"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Spike
+        Spikes have a hard time-box and a concrete output. If you can't define the output, it's not ready to be a spike yet.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question to Answer
+      description: What specific decision or unknown does this spike resolve?
+    validations:
+      required: true
+
+  - type: input
+    id: timebox
+    attributes:
+      label: Time-box
+      description: Maximum time before we cut our losses and reassess.
+      placeholder: "2 days"
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Expected Output
+      description: What deliverable comes out of this? (decision doc, prototype, benchmark, recommendation).
+    validations:
+      required: true
+
+  - type: input
+    id: parent
+    attributes:
+      label: Related Epic / Story
+      description: Optional — issue this spike unblocks.
+      placeholder: "#"
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed Approach
+      description: How will you investigate? (research, build a prototype, run experiments, etc.)
